@@ -1,11 +1,157 @@
+
+<!--
+  PWA Pilipinas
+  2020
+
+  All Rights Reserved.
+
+  PWA Pilipinas is a community organization for Progressive Web App designers,
+  developers and enthusiasts in the Philippines.
+
+  For questions, please send us an e-mail at hi@pwapilipinas.org
+
+-->
 <!Doctype html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Hacktoberfest Philippines - PWA Pilipinas</title>
-    <meta http-equiv="refresh" content="2;url=https://hacktoberfest.digitalocean.com/events#:~:text=Hacktoberfest%20Philippines" />
-    <style>body { font-family: sans-serif; }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Join as we celebrate and support open source. Organized by PWA Pilipinas in partnership with partner communities and organizations.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="128x128" href="/assets/icons/icon-128x128.png">
+    <meta property="og:title" content="Hacktoberfest Philippines - PWA Pilipinas">
+    <meta property="og:description" content="Join as we celebrate and support open source. Organized by PWA Pilipinas in partnership with partner communities and organizations.">
+    <meta property="og:url" content="https://hacktoberfest.pwapilipinas.org">
+    <meta property="og:site_name" content="PWA Pilipinas">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://hacktoberfest.pwapilipinas.org/assets/cover.png">
+    <style>
+      body {
+        font-family: Arial,Helvetica,sans-serif;
+        margin: 0;
+        padding: 0;        
+        --primary-color: #183d5d;
+        max-width: 100vw;
+        word-break: break-word;
+        overflow-x: hidden;
+        background-color: #072540;
+        color: white;
+      }
+
+      nav {
+        width: 100%;
+        min-height: 100px;
+        position: fixed;
+        top: 0;
+        background: #183D5D;
+      }
+      nav > img {
+        position: fixed;
+        left: 50px;
+        top: 10px;
+      }
+
+      .container {
+        margin-top: 150px;
+        width: 100%;
+        padding-bottom: 200px;
+      }
+      .jumbotron {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+
+      .event-container {
+        padding: 20px;
+      }
+
+      .event {
+        background: #183D5D;
+        color: white;
+        padding: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+      }
+
+      .event:first-child {
+        border-radius: 55px 0px 0px 0px;
+      }
+      .event:last-child {
+        border-radius: 0px 0px 55px 0px;
+      }
+
+      .openapp {
+        background-color: white;
+        padding: 15px;
+        border: 0;
+        border-radius: 12px;
+        font-size: 12pt;
+        cursor: pointer;
+        width: 200px;
+        position: fixed;
+        right: 15px;
+        top: 20px;
+        text-align: center;
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
-    Redirecting you to Hacktoberfest Events...
+    <nav class="header">
+      <img src="assets/images/hacktoberfest-small.png" style="width: 80px;">
+      <a class="openapp" href="https://app.pwapilipinas.org">
+        Open PWA Pilipinas App
+      </a>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <div style="width: 100%; justify-content: center; display: flex;">
+          <img src="assets/images/hacktoberfest-big.png">
+        </div>
+        <div style="width: 100%">
+          <h1><b style="font-weight: bolder;">Hacktoberfest</b><br>Philippines</h1>
+        </div>
+      </div>
+
+      <div>
+        <p style="text-align: center; color: grey">Click an event to see details and RSVP</p>
+
+        <div class="event-container">
+          <a class="event" href="https://organize.mlh.io/participants/events/4584-hacktoberfest-philippines-introduction-to-open-source" title="Introduction to Open Source">
+            <h2>Introduction to Open Source</h2>
+            <p>October 11 • 5pm</p>
+          </a>
+          <a class="event" href="http://organize.mlh.io/participants/events/4585-hacktoberfest-philippines-hack-to-home-screen" title="Hack to Home Screen">
+            <h2>Hack to Home Screen</h2>
+            <p>October 17 • 5pm</p>
+          </a>
+          <a class="event" href="http://organize.mlh.io/participants/events/4586-hacktoberfest-philippines-celebration-of-open-source" title="Celebration of Open Source">
+            <h2>Celebration of Open Source</h2>
+            <p>October 25 • 5pm</p>
+          </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 100px">
+          <img src="assets/images/do-sponsors.png" style="width: 80%;"><br><br>
+          <div>
+            <h2 style="color: #93C2DB;">Organized by</h2><br>
+            <img src="assets/images/pwapilipinas.png" width="20%">
+          </div>
+          <div>
+            <h2 style="color: #93C2DB;">Community Partners</h2><br>
+            <img src="assets/images/partners.png" style="width: 80%;">
+          </div>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
