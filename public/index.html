@@ -103,6 +103,26 @@
         color: var(--primary-color);
         text-decoration: none;
       }
+
+      .download_button {
+        text-decoration: none;
+        color: white;
+        background-color: var(--primary-color);
+        padding: 10px 50px;
+        font-size: 20pt;
+        border-radius: 15px;
+      }
+
+      .button_container {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+      }
+
+      .button_container > a:last-child {
+        margin-left: 15px !important;
+      }
     </style>
   </head>
   <body>
@@ -138,6 +158,11 @@
             <h2>Celebration of Open Source</h2>
             <p>October 25 • 5pm</p>
           </a>
+        </div>
+
+        <div class="button_container">
+            <a title="Download Swags" class="download_button" href="https://hf2020.nyc3.digitaloceanspaces.com/Virtual-Swag-Kit.zip" download>Download Swags</a>
+            <a title="Icebreaker for Introduction to Open Source" class="download_button" href="https://icebreaker.video/events/IxoPiS4iFrA5Qb2dHMN9">Join Icebreaker</a>
         </div>
 
         <div style="text-align: center; margin-top: 100px">
