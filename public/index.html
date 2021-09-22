@@ -32,12 +32,12 @@
         font-family: Arial,Helvetica,sans-serif;
         margin: 0;
         padding: 0;        
-        --primary-color: #183d5d;
+        --primary-color: #677662;
         max-width: 100vw;
         word-break: break-word;
         overflow-x: hidden;
-        background-color: #072540;
-        color: white;
+        background-color: #F4F0E1;
+        color: #2B3531;
       }
 
       nav {
@@ -45,7 +45,7 @@
         min-height: 100px;
         position: fixed;
         top: 0;
-        background: #183D5D;
+        background: #677662;
       }
       nav > img {
         position: fixed;
@@ -72,7 +72,7 @@
       }
 
       .event {
-        background: #183D5D;
+        background: #2B3531;
         color: white;
         padding: 20px;
         margin-bottom: 10px;
@@ -118,12 +118,19 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        padding: 10px;
+      }
+
+      .button_container > * {
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
       }
     </style>
   </head>
   <body>
     <nav class="header">
-      <img src="assets/images/hacktoberfest-small.png" style="width: 80px;">
+      <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hf-icon.6b4a329.svg" style="width: 80px;">
       <a class="openapp" href="https://app.pwapilipinas.org">
         Open PWA Pilipinas App
       </a>
@@ -131,7 +138,7 @@
     <div class="container">
       <div class="jumbotron">
         <div style="width: 100%; justify-content: center; display: flex;">
-          <img src="assets/images/hacktoberfest-big.png" style="width: 300px">
+          <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full2.aa1e9d9.svg" style="width: 500px">
         </div>
         <div style="width: 100%">
           <h1><b style="font-weight: bolder;">Hacktoberfest</b><br>Philippines</h1>
@@ -139,9 +146,11 @@
       </div>
 
       <div>
-        <p style="text-align: center; color: grey">Click an event to see details and RSVP</p>
+        <p style="text-align: center; color: #2B3531">
+          Coming Soon.
+        </p>
 
-        <div class="event-container">
+        <!-- div class="event-container">
           <a class="event" href="https://organize.mlh.io/participants/events/4584-hacktoberfest-philippines-introduction-to-open-source" title="Introduction to Open Source">
             <h2>Introduction to Open Source</h2>
             <p>October 11 • 5pm</p>
@@ -161,18 +170,18 @@
             <a title="Hack to Home Screen" class="download_button" href="https://github.com/pwa-pilipinas/hack-to-home-screen">Hack to Home Screen</a>
             <a title="Community Pledge" class="download_button" href="https://github.com/pwa-pilipinas/community-pledge">Community Pledge</a>
             <a title="Icebreaker for Hack to Home Screen" class="download_button" href="https://icebreaker.video/events/IxoPiS4iFrA5Qb2dHMN9">Join Icebreaker</a>
-        </div>
+        </div -->
 
         <div style="text-align: center; margin-top: 100px">
-          <img src="assets/images/do-sponsors.png" style="width: 80%;"><br><br>
+          <!--img src="assets/images/do-sponsors.png" style="width: 80%;"><br><br-->
           <div>
-            <h2 style="color: #93C2DB;">Organized by</h2><br>
-            <img src="assets/images/pwapilipinas.png" width="20%">
+            <h2 style="color: #2B3531;">Organized by</h2><br>
+            <img src="https://pwapilipinas.org/assets/images/logo_color.svg" width="10%">
           </div>
-          <div>
+          <!--div>
             <h2 style="color: #93C2DB;">Community Partners</h2><br>
             <img src="assets/images/partners.png" style="width: 80%;">
-          </div>
+          </div-->
         </div>
       </div>
 
